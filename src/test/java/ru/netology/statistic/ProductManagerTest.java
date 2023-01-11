@@ -24,8 +24,7 @@ public class ProductManagerTest {
     PurchaseItem item9 = new PurchaseItem("film9");
     PurchaseItem item10 = new PurchaseItem("film10");
     PurchaseItem item11 = new PurchaseItem("film11");
-    PurchaseItem item12 = new PurchaseItem("film12");
-
+    
     @BeforeEach
     public void setup() {
         manager.all(item1);
